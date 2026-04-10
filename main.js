@@ -1,5 +1,4 @@
 import express from "express";
-import { log } from "node:console";
 
 const app = express();
 const port = 6969;
