@@ -9,9 +9,9 @@ app.use("/movies", movieroutes);
 
 
 
-// app.get("/", (req, res) => {
-//     res.json({ msg: "hello friends" });
-// });
+app.get("/", (req, res) => {
+    res.json({ msg: "hello friends!!" });
+});
 app.listen(port, (req, res) => {
     console.log(`http://localhost:${port}`);
 });
